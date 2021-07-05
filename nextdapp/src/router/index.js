@@ -1,0 +1,31 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import Farms from '../views/Farms.vue'
+import Pools from '../views/Pools.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/farms',
+    name: 'Farms',
+    component: Farms
+  },
+  {
+    path: '/pools',
+    name: 'Pools',
+    component: Pools
+  }
+]
+
+const router = new VueRouter({
+  routes
+})
+
+export default router

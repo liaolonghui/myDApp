@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6932373",
+      "name": "warn2",
+      "font_class": "warn",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "14509177",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "20278967",
+      "name": "GitHub",
+      "font_class": "GitHub",
+      "unicode": "e5b7",
+      "unicode_decimal": 58807
+    }
+  ]
+}
